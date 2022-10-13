@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+  margin: 0;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 5px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #178242;
+}
+
+.contact {
+  background-color: #178242;
+  color: white;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.image-container img {
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.about {
+  text-align: center;
+  max-width: 400px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.serice-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.service-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 5px 10px;
+}
+
+.button {
+  align-self: end;
+  width: 100px;
+  padding: 5px 10px;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  background-color: #f3f3f3;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  gap: 5px;
+}
